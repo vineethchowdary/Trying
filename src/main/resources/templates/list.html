@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Spring Boot and Thymeleaf example</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<div layout:fragment="content">
+	
+	    <article th:each="post : ${list}">
+			<header>
+				<h2 th:text="${post.firstName}">title</h2>
+				<p th:text="${#calendars.format(post.createdAt,'M/dd/yyyy hh:mm:ss a')}">postedOn</p>
+			</header>
+			<section th:utext="${post.lastName}">
+				teaser
+			</section>
+			<section th:utext="${post.userName}">
+				username
+			</section>
+			<section th:utext="${post.password}">
+				password
+			</section>
+			
+			<hr/>
+		</article>
+
+	</div>
+		
+</body>
+</html>
