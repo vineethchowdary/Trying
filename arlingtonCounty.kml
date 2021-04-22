@@ -6,7 +6,7 @@
     <Document>
         <name>KML Styles</name>
         <open>1</open>
-        <Style id="linestyleExample">
+        <Style Id="linestyleExample">
             <LineStyle>
                 <color>7f0000ff</color>
                 <width>4</width>
