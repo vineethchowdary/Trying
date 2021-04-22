@@ -4,16 +4,12 @@
     <Document>
         <name>KML Styles</name>
         <open>1</open>
-        <Style id='Style0-point-1'>
+        <Style id="transBluePoly">
             <LineStyle>
-                <color>7f0000ff</color>
-                <width>10</width>
+                <width>1.5</width>
             </LineStyle>
             <PolyStyle>
-                <color>990000ff</color>
-                <colorMode>Random</colorMode>
-                <fill>0</fill>
-                <outline>0</outline>
+                <color>7dff0000</color>
             </PolyStyle>
         </Style>
         <Schema id="u" name="u">
@@ -84,7 +80,7 @@
 
 
             <name>51</name>
-            <styleUrl>#Style0-point-1</styleUrl>
+            <styleUrl>#transBluePoly</styleUrl>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
