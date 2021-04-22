@@ -6,12 +6,20 @@
     <Document>
         <name>KML Styles</name>
         <open>1</open>
-        <Style Id="linestyleExample">
-            <LineStyle>
-                <color>7f0000ff</color>
-                <width>4</width>
-                <gx:labelVisibility>1</gx:labelVisibility>
-            </LineStyle>
+        <Style id='Style0-point-1'>
+            <IconStyle>
+                <color>ff0000ff</color>
+                <scale>1.0</scale>
+                <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle>
+                <scale>0.0</scale>
+            </LabelStyle>
+            <BalloonStyle>
+                <text>$[description]</text>
+            </BalloonStyle>
         </Style>
         <Schema id="u" name="u">
             <SimpleField name="statefp" type="string">
@@ -81,7 +89,7 @@
 
 
             <name>51</name>
-           <styleUrl>#linestyleExample</styleUrl>
+            <styleUrl>#Style0-point-1</styleUrl>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
