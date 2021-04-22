@@ -1,15 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
     <Document>
-        <Style id="myPrettyDocument">
+        <Style id="thickLine">
             <LineStyle>
-                <color>ff0000ff</color>
-                <width>1</width>
+                <width>2.5</width>
             </LineStyle>
+        </Style>
+        <Style id="transparent50Poly">
             <PolyStyle>
-                <color>7FAAAAAA</color>
-                <fill>1</fill>
-                <outline>1</outline>
+                <color>7fffffff</color>
             </PolyStyle>
         </Style>
         <styleUrl#myPrettyDocument>
@@ -111,6 +110,7 @@
                         <SimpleData name="countyfp_nozero">13</SimpleData>
                     </SchemaData>
                 </ExtendedData>
+                <styleUrl>#transparent50Poly</styleUrl>
             </Placemark>
         </Document>
     </kml>
