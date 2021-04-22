@@ -65,7 +65,7 @@
         </Schema>
         <Placemark>
             <name>51</name>
-            <Style id="red">
+            <Style>
                 <LineStyle>
                     <color>7da00000</color>
                     <width>1</width>
