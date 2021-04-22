@@ -77,13 +77,10 @@ http://code.google.com/apis/kml/schema/kml22gx.xsd">
             <name>51</name>
             <Style>
                 <LineStyle>
-                    <color>FFdd12ff</color>
+                    <color>501400A0</color>
                     <width>1</width>
                 </LineStyle>
-                <PolyStyle>
-                    <fill>0</fill>
-                    <outline>1</outline>
-                </PolyStyle>
+
             </Style>
             <Polygon>
                 <outerBoundaryIs>
