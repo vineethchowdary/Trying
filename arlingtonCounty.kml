@@ -4,10 +4,7 @@
     <Document>
         <name>KML Styles</name>
         <Style id="transBluePoly">
-            <LineStyle>
-                <color>800000ff</color>
-                <width>2</width>
-            </LineStyle>
+
 
         </Style>
         <Schema id="u" name="u">
