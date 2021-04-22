@@ -87,7 +87,6 @@ http://code.google.com/apis/kml/schema/kml22gx.xsd">
         <Placemark>
             <styleUrl>#s1</styleUrl>
             <name>51</name>
-            <styleUrl>#style32312</styleUrl>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
