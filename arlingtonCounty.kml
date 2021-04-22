@@ -4,11 +4,11 @@
 
         <Style id="s1">
             <LineStyle>
-                <color>7f0000ff</color>
+                <color>AABBGGRR</color>
                 <width>4</width>
             </LineStyle>
             <PolyStyle>
-                <color>7f0000ff</color>
+                <color>AABBGGRR</color>
                 <colorMode>normal</colorMode>
                 <fill>1</fill>
                 <outline>1</outline>
@@ -81,7 +81,7 @@
         <Placemark>
             <styleUrl>#s1</styleUrl>
             <name>51</name>
-            <styleUrl>#style32312</styleUrl>
+           
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
