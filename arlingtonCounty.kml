@@ -80,11 +80,10 @@ http://code.google.com/apis/kml/schema/kml22gx.xsd">
             <color>ff0000ff</color>
             <width>3</width>
         </LineStyle>
-        <PolyStyle>
-            <color>7f0000ff</color>
-            <fill>1</fill>
-            <outline>1</outline>
-        </PolyStyle>
+         <PolyStyle>
+      <color>ff0000cc</color>
+      <colorMode>random</colorMode>
+    </PolyStyle>
 
             </Style>
             <Polygon>
