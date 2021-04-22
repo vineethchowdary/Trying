@@ -1,20 +1,98 @@
 <?xml version='1.0' encoding='utf-8'?>
-<kml xmlns="http://www.opengis.net/kml/2.2">
+<kml xmlns="http://www.opengis.net/kml/2.2"
+    xmlns:gx="http://www.google.com/kml/ext/2.2"
+    xmlns:kml="http://www.opengis.net/kml/2.2"
+    xmlns:atom="http://www.w3.org/2005/Atom">
     <Document>
-        <Style id="transBluePoly">
+        <name>KML Styles</name>
+        <open>1</open>
+        <Style id="red">
             <LineStyle>
-                <width>1.5</width>
+                <color>7da00000</color>
+                <width>1</width>
             </LineStyle>
             <PolyStyle>
-                <color>RRff0000</color>
+                <color>7f0000ff</color>
             </PolyStyle>
         </Style>
+        <Style id="green">
+            <LineStyle>
+                <color>FFFF00</color>
+                <width>1</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>7f00aa00</color>
+            </PolyStyle>
+        </Style>
+        <Schema id="u" name="u">
+            <SimpleField name="statefp" type="string">
+                <displayName>STATEFP</displayName>
+            </SimpleField>
+            <SimpleField name="countyfp" type="string">
+                <displayName>COUNTYFP</displayName>
+            </SimpleField>
+            <SimpleField name="countyns" type="string">
+                <displayName>COUNTYNS</displayName>
+            </SimpleField>
+            <SimpleField name="geoid" type="string">
+                <displayName>GEOID</displayName>
+            </SimpleField>
+            <SimpleField name="name" type="string">
+                <displayName>NAME</displayName>
+            </SimpleField>
+            <SimpleField name="namelsad" type="string">
+                <displayName>NAMELSAD</displayName>
+            </SimpleField>
+            <SimpleField name="stusab" type="string">
+                <displayName>STUSAB</displayName>
+            </SimpleField>
+            <SimpleField name="lsad" type="string">
+                <displayName>LSAD</displayName>
+            </SimpleField>
+            <SimpleField name="classfp" type="string">
+                <displayName>CLASSFP</displayName>
+            </SimpleField>
+            <SimpleField name="mtfcc" type="string">
+                <displayName>MTFCC</displayName>
+            </SimpleField>
+            <SimpleField name="csafp" type="string">
+                <displayName>CSAFP</displayName>
+            </SimpleField>
+            <SimpleField name="cbsafp" type="string">
+                <displayName>CBSAFP</displayName>
+            </SimpleField>
+            <SimpleField name="metdivfp" type="string">
+                <displayName>METDIVFP</displayName>
+            </SimpleField>
+            <SimpleField name="funcstat" type="string">
+                <displayName>FUNCSTAT</displayName>
+            </SimpleField>
+            <SimpleField name="aland" type="int">
+                <displayName>ALAND</displayName>
+            </SimpleField>
+            <SimpleField name="awater" type="int">
+                <displayName>AWATER</displayName>
+            </SimpleField>
+            <SimpleField name="intptlat" type="string">
+                <displayName>INTPTLAT</displayName>
+            </SimpleField>
+            <SimpleField name="intptlon" type="string">
+                <displayName>INTPTLON</displayName>
+            </SimpleField>
+            <SimpleField name="state_name" type="string">
+                <displayName>STATE_NAME</displayName>
+            </SimpleField>
+            <SimpleField name="countyfp_nozero" type="string">
+                <displayName>COUNTYFP NOZERO</displayName>
+            </SimpleField>
+        </Schema>
+
 
         <Placemark>
 
 
             <name>51</name>
-            <styleUrl>#transBluePoly</styleUrl>
+            <styleUrl>kml-styles.kml#red</styleUrl>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
