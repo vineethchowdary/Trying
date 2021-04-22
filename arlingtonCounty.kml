@@ -3,7 +3,7 @@
     xmlns:gx="http://www.google.com/kml/ext/2.2">
     <NetworkLink>
         <Link>
-            <href> [your_source_kml_link] </href>
+            <href>https://raw.githubusercontent.com/vineethchowdary/Trying/master/arlingtonCounty.kml</href>
             <refreshMode>onInterval</refreshMode>
             <refreshInterval> 3600 </refreshInterval>
         </Link>
