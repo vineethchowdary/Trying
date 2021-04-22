@@ -1,7 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
     <Document>
-
+        <Style id="polygon_style">
+            <LineStyle>
+                <color>FFdd12ff</color>
+                <width>1</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>FF7FAAAAAA</color>
+                <fill>1</fill>
+                <outline>1</outline>
+            </PolyStyle>
+        </Style>
 
         <Schema id="u" name="u">
             <SimpleField name="statefp" type="string">
@@ -74,7 +84,7 @@
 
         <Placemark>
             <name>51</name>
-
+            <styleUrl>#polygon_style</styleUrl>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
