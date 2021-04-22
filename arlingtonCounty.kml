@@ -81,7 +81,6 @@ http://code.google.com/apis/kml/schema/kml22gx.xsd">
                     <width>1</width>
                 </LineStyle>
                 <PolyStyle>
-                    <color>FF7FAAAAAA</color>
                     <fill>0</fill>
                     <outline>1</outline>
                 </PolyStyle>
