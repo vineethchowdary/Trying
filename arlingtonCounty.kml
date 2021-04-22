@@ -8,18 +8,6 @@ http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/
 http://code.google.com/apis/kml/schema/kml22gx.xsd">
     <Document>
 
-        <Style id="s1">
-            <LineStyle>
-                <color>7f0000ff</color>
-                <width>4</width>
-            </LineStyle>
-            <PolyStyle>
-                <color>7f0000ff</color>
-                <colorMode>normal</colorMode>
-                <fill>1</fill>
-                <outline>1</outline>
-            </PolyStyle>
-        </Style>
         <Schema id="u" name="u">
             <SimpleField name="statefp" type="string">
                 <displayName>STATEFP</displayName>
@@ -85,7 +73,13 @@ http://code.google.com/apis/kml/schema/kml22gx.xsd">
 
 
         <Placemark>
-            <styleUrl>#s1</styleUrl>
+            <Style>
+                <PolyStyle>
+                    <color>7f0000ff</color>
+                    <outline>1</outline>
+                </PolyStyle>
+            </Style>
+
             <name>51</name>
             <Polygon>
                 <outerBoundaryIs>
