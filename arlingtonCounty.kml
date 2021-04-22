@@ -5,9 +5,15 @@
         <name>KML Styles</name>
         <open>1</open>
         <Style id='Style0-point-1'>
+            <LineStyle>
+                <color>7f0000ff</color>
+                <width>4</width>
+            </LineStyle>
             <PolyStyle>
-                <color>00ff6633</color>
+                <color>7f0000ff</color>
+                <colorMode>normal</colorMode>
                 <fill>1</fill>
+                <outline>1</outline>
             </PolyStyle>
         </Style>
         <Schema id="u" name="u">
