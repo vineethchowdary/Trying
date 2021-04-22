@@ -6,23 +6,12 @@
     <Document>
         <name>KML Styles</name>
         <open>1</open>
-        <Style id="red">
+        <Style id="linestyleExample">
             <LineStyle>
-                <color>7da00000</color>
-                <width>1</width>
-            </LineStyle>
-            <PolyStyle>
                 <color>7f0000ff</color>
-            </PolyStyle>
-        </Style>
-        <Style id="green">
-            <LineStyle>
-                <color>FFFF00</color>
-                <width>1</width>
+                <width>4</width>
+                <gx:labelVisibility>1</gx:labelVisibility>
             </LineStyle>
-            <PolyStyle>
-                <color>7f00aa00</color>
-            </PolyStyle>
         </Style>
         <Schema id="u" name="u">
             <SimpleField name="statefp" type="string">
@@ -92,7 +81,7 @@
 
 
             <name>51</name>
-            <styleUrl>kml-styles.kml#red</styleUrl>
+           <styleUrl>#linestyleExample</styleUrl>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
