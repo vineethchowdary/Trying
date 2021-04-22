@@ -6,7 +6,7 @@
         <Style id="transBluePoly">
             <LineStyle>
                 <color>7F0000ff</color>
-                <width>5.0d</width>
+                <width>0</width>
                 <colorMode>normal</colorMode>
             </LineStyle>
 
