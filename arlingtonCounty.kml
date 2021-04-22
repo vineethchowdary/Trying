@@ -16,6 +16,8 @@
             </PolyStyle> -->
             <PolyStyle>
                 <color>ffff0000</color>
+                <fill>1</fill>
+                <outline>0</outline>
             </PolyStyle>
         </Style>
         <Schema id="u" name="u">
