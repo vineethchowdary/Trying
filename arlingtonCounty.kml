@@ -5,20 +5,10 @@
         <name>KML Styles</name>
         <Style id="transBluePoly">
             <LineStyle>
-                <color>ff0000ff</color>
-                <width>5</width>
+                <color>800000ff</color>
+                <width>2</width>
             </LineStyle>
-            <!-- <PolyStyle>
-                <color>01400FF</color>
-                <colorMode>random</colorMode>
-                <fill>1</fill>
-                <outline>1</outline>
-            </PolyStyle> -->
-            <PolyStyle>
-                <color>FFff0000</color>
-                <fill>1</fill>
-                <outline>0</outline>
-            </PolyStyle>
+
         </Style>
         <Schema id="u" name="u">
             <SimpleField name="statefp" type="string">
