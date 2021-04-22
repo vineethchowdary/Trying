@@ -5,8 +5,8 @@
         <name>KML Styles</name>
         <Style id="transBluePoly">
             <LineStyle>
-                <color>ff000234</color>
-                <width>0.0</width>
+                <color>ff008cff</color>
+                <width>5.0d</width>
                 <colorMode>normal</colorMode>
             </LineStyle>
 
