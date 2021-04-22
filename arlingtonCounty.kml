@@ -8,9 +8,9 @@
             <LineStyle>
                 <width>1.5</width>
             </LineStyle>
-            <PolyStyle>
+            <!-- <PolyStyle>
                 <color>7dff0000</color>
-            </PolyStyle>
+            </PolyStyle> -->
         </Style>
         <Schema id="u" name="u">
             <SimpleField name="statefp" type="string">
