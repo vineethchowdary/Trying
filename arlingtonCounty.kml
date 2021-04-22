@@ -1,14 +1,19 @@
 <?xml version='1.0' encoding='utf-8'?>
-<kml xmlns="http://www.opengis.net/kml/2.2"
-    xmlns:gx="http://
-www.google.com/kml/ext/2.2"
-    xmlns:xsi="http://www.w3.org/2001/
-XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/kml/2.2
-http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2
-http://code.google.com/apis/kml/schema/kml22gx.xsd">
+<kml xmlns="http://www.opengis.net/kml/2.2">
     <Document>
 
-
+        <Style id="s1">
+            <LineStyle>
+                <color>7f0000ff</color>
+                <width>4</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>7f0000ff</color>
+                <colorMode>normal</colorMode>
+                <fill>1</fill>
+                <outline>1</outline>
+            </PolyStyle>
+        </Style>
         <Schema id="u" name="u">
             <SimpleField name="statefp" type="string">
                 <displayName>STATEFP</displayName>
@@ -74,17 +79,8 @@ http://code.google.com/apis/kml/schema/kml22gx.xsd">
 
 
         <Placemark>
+            <styleUrl>#s1</styleUrl>
             <name>51</name>
-            <Style Id="style32312">
-                <PolyStyle>
-                    <color>40e87649</color>
-                </PolyStyle>
-                <LineStyle>
-                    <color>7da00000</color>
-                    <width>1</width>
-                </LineStyle>
-
-            </Style>
             <styleUrl>#style32312</styleUrl>
             <Polygon>
                 <outerBoundaryIs>
