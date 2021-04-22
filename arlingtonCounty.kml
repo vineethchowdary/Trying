@@ -65,10 +65,22 @@
         </Schema>
         <Placemark>
             <name>51</name>
-            <Style>
+            <Style id="red">
+                <LineStyle>
+                    <color>7da00000</color>
+                    <width>1</width>
+                </LineStyle>
                 <PolyStyle>
                     <color>7f0000ff</color>
-                    <outline>1</outline>
+                </PolyStyle>
+            </Style>
+            <Style id="green">
+                <LineStyle>
+                    <color>FFFF00</color>
+                    <width>1</width>
+                </LineStyle>
+                <PolyStyle>
+                    <color>7f00aa00</color>
                 </PolyStyle>
             </Style>
             <Polygon>
