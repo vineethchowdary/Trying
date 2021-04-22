@@ -82,7 +82,7 @@ http://code.google.com/apis/kml/schema/kml22gx.xsd">
                 </LineStyle>
                 <PolyStyle>
                     <color>FF7FAAAAAA</color>
-                    <fill>1</fill>
+                    <fill>0</fill>
                     <outline>1</outline>
                 </PolyStyle>
             </Style>
