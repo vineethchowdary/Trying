@@ -14,6 +14,9 @@
                 <fill>1</fill>
                 <outline>1</outline>
             </PolyStyle> -->
+            <PolyStyle>
+                <color>ffff0000</color>
+            </PolyStyle>
         </Style>
         <Schema id="u" name="u">
             <SimpleField name="statefp" type="string">
