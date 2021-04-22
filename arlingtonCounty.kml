@@ -76,10 +76,7 @@ http://code.google.com/apis/kml/schema/kml22gx.xsd">
         <Placemark>
             <name>51</name>
             <Style>
-                <LineStyle>
-                    <color>(ff)ccff11</color>
-                    <width>10</width>
-                </LineStyle>
+             <PolyStyle><fill>0</fill><outline>1</outline></PolyStyle>
 
             </Style>
             <Polygon>
