@@ -9,10 +9,9 @@
                 <width>5</width>
             </LineStyle>
             <PolyStyle>
-                <color>ffffffff</color>
-                <colorMode>normal</colorMode>
-                <fill>1</fill>
-                <outline>1</outline>
+                <color>ff0000cc</color>
+                <colorMode>random</colorMode>
+
             </PolyStyle>
         </Style>
         <Schema id="u" name="u">
