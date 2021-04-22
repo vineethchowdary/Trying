@@ -9,7 +9,8 @@
                 <width>5</width>
             </LineStyle>
             <PolyStyle>
-                <color>0D2D2D2</color>
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
                 <fill>1</fill>
                 <outline>1</outline>
             </PolyStyle>
