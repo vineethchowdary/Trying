@@ -65,8 +65,9 @@
         </Schema>
         <Style id="examplePolyStyle">
             <PolyStyle>
-                <color>5014F032</color>
-                <colorMode>random</colorMode>
+                <color>8014B4FF</color>
+                <fill>1</fill>
+                <outline>1</outline>
             </PolyStyle>
         </Style>
         <Placemark>
