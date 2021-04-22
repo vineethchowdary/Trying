@@ -75,12 +75,7 @@
                 <displayName>COUNTYFP NOZERO</displayName>
             </SimpleField>
         </Schema>
-        <Style>
-            <PolyStyle>
-                <fill>0</fill>
-                <outline>1</outline>
-            </PolyStyle>
-        </Style>
+    
 
         <Placemark>
             <name>51</name>
