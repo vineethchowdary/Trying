@@ -6,11 +6,14 @@
         <open>1</open>
         <Style id="transBluePoly">
             <LineStyle>
-                <width>1.5</width>
+                <color>ff000000</color>
+                <width>1</width>
             </LineStyle>
-            <!-- <PolyStyle>
-                <color>7dff0000</color>
-            </PolyStyle> -->
+            <PolyStyle>
+                <color>7FAAAAAA</color>
+                <fill>1</fill>
+                <outline>1</outline>
+            </PolyStyle>
         </Style>
         <Schema id="u" name="u">
             <SimpleField name="statefp" type="string">
