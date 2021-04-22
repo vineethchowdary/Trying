@@ -11,7 +11,8 @@
             <PolyStyle>
                 <color>ff0000cc</color>
                 <colorMode>random</colorMode>
-
+                <fill>1</fill>
+                <outline>1</outline>
             </PolyStyle>
         </Style>
         <Schema id="u" name="u">
