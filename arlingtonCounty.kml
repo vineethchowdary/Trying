@@ -10,10 +10,10 @@
                 <width>10</width>
             </LineStyle>
             <PolyStyle>
-                <color>7f0000ff</color>
+                <color>990000ff</color>
                 <colorMode>Random</colorMode>
                 <fill>1</fill>
-                <outline>1</outline>
+                <outline>0</outline>
             </PolyStyle>
         </Style>
         <Schema id="u" name="u">
