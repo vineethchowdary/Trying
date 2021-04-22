@@ -1,14 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
-<kml xmlns="http://www.opengis.net/kml/2.2">
+<kml xmlns="http://www.opengis.net/kml/2.2"
+    xmlns:gx="http://
+www.google.com/kml/ext/2.2"
+    xmlns:xsi="http://www.w3.org/2001/
+XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/kml/2.2
+http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2
+http://code.google.com/apis/kml/schema/kml22gx.xsd">
     <Document>
 
         <Style id="s1">
             <LineStyle>
-                <color>AABBGGRR</color>
+                <color>7f0000ff</color>
                 <width>4</width>
             </LineStyle>
             <PolyStyle>
-                <color>AABBGGRR</color>
+                <color>7f0000ff</color>
                 <colorMode>normal</colorMode>
                 <fill>1</fill>
                 <outline>1</outline>
@@ -81,7 +87,7 @@
         <Placemark>
             <styleUrl>#s1</styleUrl>
             <name>51</name>
-           
+            <styleUrl>#style32312</styleUrl>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
