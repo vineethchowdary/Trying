@@ -11,7 +11,7 @@
             </LineStyle>
             <PolyStyle>
                 <color>7f0000ff</color>
-                <colorMode>normal</colorMode>
+                <colorMode>Random</colorMode>
                 <fill>1</fill>
                 <outline>1</outline>
             </PolyStyle>
