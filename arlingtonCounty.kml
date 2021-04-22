@@ -7,6 +7,7 @@
         <Style id='Style0-point-1'>
             <PolyStyle>
                 <color>7f0000ff</color>
+                <fill>0</fill>
             </PolyStyle>
         </Style>
         <Schema id="u" name="u">
