@@ -6,11 +6,11 @@
         <open>1</open>
         <Style id="transBluePoly">
             <LineStyle>
-                <color>ff000000</color>
-                <width>1</width>
+                <color>ff00ffff</color>
+                <width>5</width>
             </LineStyle>
             <PolyStyle>
-                <color>8014B4FF</color>
+                <color>5014B4FF</color>
                 <fill>1</fill>
                 <outline>1</outline>
             </PolyStyle>
