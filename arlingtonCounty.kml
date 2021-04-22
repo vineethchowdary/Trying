@@ -1,6 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
     <Document>
+        <Style>
+            <LineStyle>
+                <color>ff000000</color>
+                <width>1</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>7FAAAAAA</color>
+                <fill>1</fill>
+                <outline>1</outline>
+            </PolyStyle>
+        </Style>
         <Schema id="u" name="u">
             <SimpleField name="statefp" type="string">
                 <displayName>STATEFP</displayName>
@@ -63,16 +74,10 @@
                 <displayName>COUNTYFP NOZERO</displayName>
             </SimpleField>
         </Schema>
-        <Style id="examplePolyStyle">
-            <PolyStyle>
-                <color>8014B4FF</color>
-                <fill>1</fill>
-                <outline>1</outline>
-            </PolyStyle>
-        </Style>
+
         <Placemark>
             <name>51</name>
-            <styleUrl>#examplePolyStyle</styleUrl>
+            <styleUrl>#polygon_style</styleUrl>
 
             <Polygon>
                 <outerBoundaryIs>
