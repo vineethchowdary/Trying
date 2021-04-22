@@ -78,7 +78,7 @@ http://code.google.com/apis/kml/schema/kml22gx.xsd">
             <Style>
                 <LineStyle>
                     <color>FF501400A0</color>
-                    <width>1</width>
+                    <width>10</width>
                 </LineStyle>
 
             </Style>
