@@ -63,16 +63,16 @@
                 <displayName>COUNTYFP NOZERO</displayName>
             </SimpleField>
         </Schema>
+        <Style id="examplePolyStyle">
+            <PolyStyle>
+                <color>ff0000cc</color>
+                <colorMode>random</colorMode>
+            </PolyStyle>
+        </Style>
         <Placemark>
             <name>51</name>
-                <LineStyle>
-                    <color>7da00000</color>
-                    <width>1</width>
-                </LineStyle>
-                <PolyStyle>
-                    <color>7f0000ff</color>
-                </PolyStyle>
-           
+            <styleUrl>#examplePolyStyle</styleUrl>
+
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
