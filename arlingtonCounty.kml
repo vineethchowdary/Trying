@@ -75,17 +75,17 @@ http://code.google.com/apis/kml/schema/kml22gx.xsd">
 
         <Placemark>
             <name>51</name>
-            <Style>
-              <LineStyle>
-            <color>ff0000ff</color>
-            <width>3</width>
-        </LineStyle>
-         <PolyStyle>
-      <color>ff0000cc</color>
-      <colorMode>random</colorMode>
-    </PolyStyle>
+            <Style Id="style32312">
+                <PolyStyle>
+                    <color>40e87649</color>
+                </PolyStyle>
+                <LineStyle>
+                    <color>7da00000</color>
+                    <width>1</width>
+                </LineStyle>
 
             </Style>
+            <styleUrl>#style32312</styleUrl>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
