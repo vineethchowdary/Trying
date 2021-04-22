@@ -5,7 +5,7 @@
         <Link>
             <href>https://raw.githubusercontent.com/vineethchowdary/Trying/master/arlingtonCounty.kml</href>
             <refreshMode>onInterval</refreshMode>
-            <refreshInterval> 3600 </refreshInterval>
+            <refreshInterval>60</refreshInterval>
         </Link>
     </NetworkLink>
     <Document>
@@ -13,9 +13,13 @@
         <Style id="transBluePoly">
             <LineStyle>
                 <color>ff000000</color>
-                <width>0</width>
-                <colorMode>normal</colorMode>
+                <width>1</width>
             </LineStyle>
+            <PolyStyle>
+                <color>7FAAAAAA</color>
+                <fill>1</fill>
+                <outline>1</outline>
+            </PolyStyle>
 
         </Style>
         <Schema id="u" name="u">
